@@ -1,0 +1,9 @@
+data/
+council/
+tasks/
+CLAUDE.md
+capstone_presentation.pdf
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
