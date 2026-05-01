@@ -4,7 +4,7 @@ A 16-year, ice-type-resolved turbulent heat flux climatology for Lake Erie durin
 
 ## Overview
 
-This project presents the first systematic climatology of sensible (QH) and latent (QE) heat fluxes over Lake Erie during CAO events, using a four-class surface type classification (open water, lead, rubble, smooth ice) and the bulk aerodynamic parameterization of Guest and Davidson (1991). A composite analysis of 27 CAO events (2010-2026) reveals consistent flux suppression following onset, with the Bowen ratio (QH/QE) remaining above 1.0 through day 6 post-onset before a brief dip at days 7-8 and recovery at day 9. Sub-grid surface heterogeneity systematically enhances QH relative to a uniform smooth-ice baseline, confirming that ice type distribution rather than total ice concentration governs lake-atmosphere energy exchange.
+This project presents the first systematic climatology of sensible (QH) and latent (QE) heat fluxes over Lake Erie during CAO events, using a four-class surface type classification (open water, lead, rubble, smooth ice) and the bulk aerodynamic parameterization of Guest and Davidson (1991). A composite analysis of 28 CAO events (2010-2026) reveals consistent flux suppression following onset, with the Bowen ratio (QH/QE) remaining above 1.0 through day 6 post-onset before a brief dip at days 7-8 and recovery at day 9. Sub-grid surface heterogeneity systematically enhances QH relative to a uniform smooth-ice baseline, confirming that ice type distribution rather than total ice concentration governs lake-atmosphere energy exchange.
 
 ## Data Sources
 
@@ -15,15 +15,15 @@ This project presents the first systematic climatology of sensible (QH) and late
 ## Key Findings
 
 - Median Bowen ratio across the full cold-date population: 1.48; 68.8% of CAO ice-covered dates show sensible heat dominance
-- CAO composite: QH declines 91% and QE 82% over 9 post-onset days as ice cover rises from ~51% to ~99%
-- Bowen ratio robust to full parameter uncertainty space (Monte Carlo N = 500; p05 > 1.0 at day offsets 0-9 with n >= 8; minimum p05 = 1.14 at day 9)
+- CAO composite: QH declines 88% and QE 80% over 9 post-onset days as ice cover rises from ~51% to ~99%
+- Bowen ratio robust to full parameter uncertainty space (Monte Carlo N = 500; p05 > 1.0 at day offsets 0-10 with n >= 5; minimum p05 = 1.14 at day 9)
 - Result holds across AO phase stratification (positive AO n = 11, negative AO n = 19)
 
 ## Methods
 
 1. USNIC ASCII grids reprojected from EPSG:3857 to EPSG:4326 and classified into four surface types using WMO SIGRID-3 concentration codes
 2. Bulk aerodynamic fluxes computed following Guest and Davidson (1991) with Louis (1979) atmospheric stability correction
-3. CAO events identified using ERA5 lake-mean Ta < -10 deg C sustained for at least 2 consecutive days; 30 events identified, 27 composited
+3. CAO events identified using ERA5 lake-mean Ta < -10 deg C sustained for at least 2 consecutive days; 30 events identified, 28 composited
 4. Monte Carlo uncertainty analysis with uniform priors on Ta, wind speed, and ice-class surface temperatures
 
 ## Dependencies
